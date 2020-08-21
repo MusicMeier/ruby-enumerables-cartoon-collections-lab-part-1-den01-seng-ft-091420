@@ -16,9 +16,9 @@ def list_dwarves(array)
   
   array.each_with_index do |list_dwarves, index| 
     index = 0
-    print "[index + 1] #{list_dwarves}"
-    index += 1
+    print "[index + 1]. #{list_dwarves}"
+    
     
   end
-  
+  index += 1
 end
